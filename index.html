@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Essential Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elite Marketing Solutions - Professional Digital Marketing and Web Development Services">
+    <meta name="keywords" content="marketing, web development, digital solutions">
+    <title>SiteWeaverz</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    
+    <!-- CSS Libraries (remove duplicates) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <!-- Custom CSS (load after libraries) -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/service.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    
+    <!-- Essential Scripts (load libraries first) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+</head>
+<body>
+   <!-- Navigation -->
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <div class="logo-text">
+                <span class="tech-text">Site</span>
+                <span class="weaver-text">Weaverz</span>
+                <div class="tech-line"></div>
+            </div>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto align-items-center">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#service">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            
+            </ul>
+            <div class="ms-auto"> 
+                <a href="https://wa.me/918930005190" target="_blank" id="contactBtn" class=" nav-contact-btn">
+                    <i class="fab fa-whatsapp me-2"></i>Contact Us
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <section class="hero-container">
+            <div class="grid-background"></div>
+            <div class="rays-container"></div>
+            
+            <div class="container">
+                <div class="hero-content">
+                    <div class="announcement">
+                        <span>Innovative IT Solutions for Modern Businesses</span>
+                    </div>
+                    <h1>Transform Your Business with 
+                        <br><span class="highlight">Cutting-Edge</span> Technology</h1>
+                    <p>We deliver comprehensive IT services and solutions that drive growth, enhance efficiency, and secure your digital assets. From cloud infrastructure to custom software development, we're your trusted technology partner.</p>
+                    
+                    <!-- Update the contact button in the hero section -->
+                    <div class="cta-buttons">
+                        <a href="tel:+918930005190" class="btn primary-btn">
+                            Contact Us
+                        </a>
+                        <a href="#service" class="btn secondary-btn">Our Services</a>
+                    </div>
+                    
+                    <!-- <div class="steps-container mt-5">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <span>Consultation</span>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <span>Strategy</span>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <span>Implementation</span>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <span>Support</span>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </div>
+   </section>
+
+   <!-- About Section -->
+   <section id="about" class="about-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-8 text-center">
+                <div class="section-header" data-aos="fade-up">
+                    <p class="section-subtitle">Who We Are</p>
+                    <h2 class="section-title">Empowering Businesses Through <span class="text-gradient">Digital Innovation</span></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-lg-6" data-aos="fade-right">
+                <div class="about-image">
+                    <img src="./img/about.png" alt="About Us" class="img-fluid rounded-lg">
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="about-content">
+                    <p class="lead mb-4">We are a dynamic team of tech enthusiasts driven by creativity and innovation. Specializing in 
+                        cutting-edge IT solutions, we help businesses streamline operations, enhance customer experiences,
+                         and embrace digital transformation. From custom software development to cloud integration and digital strategy,
+                          we’re committed to delivering impactful solutions that drive real results.
+
+                    </p>
+                    
+                    <div class="achievement-grid">
+                        <div class="achievement-item">
+                            <span class="number" data-target="200">0</span>
+                            <span class="label">Projects Completed</span>
+                        </div>
+                        <div class="achievement-item">
+                            <span class="number" data-target="150">0</span>
+                            <span class="label">Happy Clients</span>
+                        </div>
+                        <div class="achievement-item">
+                            <span class="number" data-target="15">0</span>
+                            <span class="label">Expert Team</span>
+                        </div>
+                    </div>
+
+                    <div class="about-features mt-5">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Custom Software Solutions</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>24/7 Technical Support</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Agile Development Process</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <section id="service" class="services-section">
+    <div class="floating-elements">
+        <div class="floating-element" style="top: 10%; left: 10%; animation-delay: 0s;"></div>
+        <div class="floating-element" style="top: 20%; right: 15%; animation-delay: 1s;"></div>
+        <div class="floating-element" style="bottom: 30%; left: 20%; animation-delay: 2s;"></div>
+        <div class="floating-element" style="bottom: 10%; right: 10%; animation-delay: 3s;"></div>
+        <div class="floating-element" style="top: 50%; left: 5%; animation-delay: 4s;"></div>
+        <div class="floating-element" style="top: 70%; right: 25%; animation-delay: 5s;"></div>
+    </div>
+
+    <div class="container">
+        <div class="section-title">
+            <h2>Our Services</h2>
+            <p>Comprehensive solutions tailored to transform your business and drive success in the digital age</p>
+        </div>
+
+        <div class="service-grid">
+            <div class="row g-4">
+                <div class="col-lg-6 col-md-6">
+                    <div class="service-card stagger-animation" data-delay="0.1">
+                        <div class="service-icon">
+                            <i class="fas fa-window-maximize"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Create responsive, high-performance websites and web applications tailored to your business needs and user expectations.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="service-card stagger-animation" data-delay="0.2">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>App Development</h3>
+                        <p>Build native and cross-platform mobile applications that deliver seamless experiences across all devices.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="service-card stagger-animation" data-delay="0.3">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Digital Marketing</h3>
+                        <p>Drive growth with data-driven marketing strategies, SEO optimization, and targeted campaigns.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="service-card stagger-animation" data-delay="0.4">
+                        <div class="service-icon">
+                            <i class="fas fa-list"></i>
+                        </div>
+                        <h3>Product Listing</h3>
+                        <p>Optimize your product catalogs for maximum visibility and conversions across e-commerce platforms and marketplaces.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <h2>Our <span class="highlight">Portfolio</span></h2>
+            <p>Discover our successful projects and digital innovations</p>
+        </div>
+        
+        <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="portfolio-card">
+                        <img src="img/Frame 3.png" class="d-block w-100" alt="Project 1">
+                        <div class="portfolio-content">
+                            <h3>Landing Page Website</h3>
+                            <p>Travel Agency website</p>
+                            <a href="https://www.ruhanitrips.com/" class="btn primary-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="portfolio-card">
+                        <img src="img/Frame1.png" class="d-block w-100" alt="Project 2">
+                        <div class="portfolio-content">
+                            <h3>Multi Page Website</h3>
+                            <p>Mobile LCD and display Website</p>
+                            <a href="https://pmakemobilelcd.com/" class="btn primary-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="carousel-item">
+                    <div class="portfolio-card">
+                        <img src="./img/Frame 8.png" class="d-block w-100" alt="Project 3">
+                        <div class="portfolio-content">
+                            <h3>Static Website</h3>
+                            <p>Gift Gallery Website</p>
+                            <a href="https://neha-kandari.github.io/photoframe/" class="btn primary-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="portfolio-card">
+                        <img src="./img/Smart home.png" class="d-block w-100" alt="Project 4">
+                        <div class="portfolio-content">
+                            <h3>Smart Home App</h3>
+                            <p>Iot based App for the home appliance management</p>
+                            <a href="https://www.figma.com/proto/YLDjjsI0GLinc1UIOk4mii/Smart-Home-App-Design--Community---Community-?page-id=0%3A1&node-id=148-5811&p=f&viewport=9990%2C-7480%2C0.65&t=S3dqRvFQWJma4YSh-1&scaling=scale-down&content-scaling=fixed" class="btn primary-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="portfolio-card">
+                        <img src="./img/Smile.png" class="d-block w-100" alt="Project 5">
+                        <div class="portfolio-content">
+                            <h3>Full Stack Website</h3>
+                            <p>Smile Foundation NGO website</p>
+                            <a href="https://www.smilefoundationindia.org/" class="btn primary-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="portfolio-card">
+                        <img src="./img/Frame.png" class="d-block w-100" alt="Project 6">
+                        <div class="portfolio-content">
+                            <h3> Landing Page</h3>
+                            <p>Finance Website</p>
+                            <a href="https://www.figma.com/proto/qk2yeHOt1MhjkWOL8uwkWo/Landing-Page?page-id=0%3A1&node-id=4-211&viewport=11129%2C2533%2C0.1&t=oq07Ejs3F9LBezcG-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=4%3A211" class="btn primary-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+               
+
+                <div class="carousel-item">
+                    <div class="portfolio-card">
+                        <img src="./img/Finance.png" class="d-block w-100" alt="Project 7">
+                        <div class="portfolio-content">
+                            <h3>Finance Application</h3>
+                            <p>Finance Applicatin  Design  </p>
+                            <a href="https://www.figma.com/proto/Cg8YLGpNQ5jmUiZ411qgLO/Finance-App?page-id=0%3A1&node-id=1-21&p=f&viewport=303%2C211%2C0.17&t=9t48hG1MzfCXjcPu-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2" class="btn primary-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="portfolio-card">
+                        <img src="./img/Logistic.png" class="d-block w-100" alt="Project 8">
+                        <div class="portfolio-content">
+                            <h3>Multi Page Website</h3>
+                            <p>Logistic Web design</p>
+                            <a href="https://www.figma.com/proto/WS2jFuqFjlVUAwfnmIaSSt/Shipping-Landing-Page-Design--Community-?page-id=1%3A98&node-id=1-133&viewport=526%2C415%2C0.13&t=WMeLB2bXzoaaVTWP-1&scaling=min-zoom&content-scaling=fixed" class="btn primary-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="portfolio-card">
+                        <img src="./img/Fashion.png" class="d-block w-100" alt="Project 9">
+                        <div class="portfolio-content">
+                            <h3>E-comerce  Website</h3>
+                            <p>Fashion E-comerce Web design</p>
+                            <a href="https://www.figma.com/proto/rok85ipZzZRZ92M2GxdPdR/Fashion-Ecomerce-Website?page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&t=0fCF7oj0eMb2CF90-1">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="portfolio-card">
+                        <img src="./img/Furniture.png" class="d-block w-100" alt="Project 10">
+                        <div class="portfolio-content">
+                            <h3>E-comerce  Website</h3>
+                            <p>Furniture E-comerce Web design</p>
+                            <a href="https://www.figma.com/proto/Idofiu2yi7cPfZXd53ySWR/Panto---Furniture-Landing-Page-Design--Community-?page-id=0%3A1&node-id=1-2&p=f&viewport=489%2C487%2C0.13&t=VHCoQAXjUXJufzTR-1&scaling=min-zoom&content-scaling=fixed">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+      <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <div class="section-header" data-aos="fade-up">
+                        <p class="section-subtitle">Get In Touch</p>
+                        <h2 class="section-title">Let's Build Something <span class="text-gradient">Amazing Together</span></h2>
+                        <p class="section-description">
+                            Ready to transform your business with cutting-edge technology? Our team of experts is here to help you achieve your digital goals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Contact Info Cards -->
+                <div class="col-lg-4 mb-5">
+                    <div class="contact-info">
+                        <div class="contact-card" data-aos="fade-right" data-aos-delay="100">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4>Visit Our Office</h4>
+                                <p>2 Eadgah Road<br>Model Town <br>Panipat, Harya</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card" data-aos="fade-right" data-aos-delay="200">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4>Call Us</h4>
+                                <p>+91 8930005190</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card" data-aos="fade-right" data-aos-delay="300">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4>Email Us</h4>
+                                <p>we.siteweaverz.@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-8">
+                    <div class="contact-form-wrapper" data-aos="fade-left">
+                        <form id="contactForm" class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-group">
+                                        <input type="text" id="firstName" name="firstName" class="form-control" required>
+                                        <label for="firstName" class="form-label">First Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-group">
+                                        <input type="text" id="lastName" name="lastName" class="form-control" required>
+                                        <label for="lastName" class="form-label">Last Name</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-group">
+                                        <input type="email" id="email" name="email" class="form-control" required>
+                                        <label for="email" class="form-label">Email Address</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-group">
+                                        <input type="tel" id="phone" name="phone" class="form-control" required>
+                                        <label for="phone" class="form-label">Phone Number</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-4">
+                                <div class="form-group">
+                                    <select id="service" name="service" class="form-control" required>
+                                        <option value="">Select a Service</option>
+                                        <option value="web-development">Web Development</option>
+                                        <option value="cloud-infrastructure">App Development</option>
+                                        <option value="custom-software">Digital Marketing</option>
+                                        <option value="it-consulting">Product Listing</option>
+                                        <!-- <option value="digital-transformation">Digital Transformation</option> -->
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <label for="service" class="form-label">Service Interested In</label>
+                                </div>
+                            </div>
+
+                            <div class="mb-4">
+                                <div class="form-group">
+                                    <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                                    <label for="message" class="form-label">Tell us about your project</label>
+                                </div>
+                            </div>
+
+                            <!-- <div class="mb-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="newsletter" name="newsletter">
+                                    <label class="form-check-label" for="newsletter">
+                                        Subscribe to our newsletter for the latest tech insights
+                                    </label>
+                                </div>
+                            </div> -->
+
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-loading d-none">
+                                    <i class="fas fa-spinner fa-spin"></i> Sending...
+                                </span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Background Elements -->
+        <div class="bg-elements">
+            <div class="gradient-circle gradient-circle-1"></div>
+            <div class="gradient-circle gradient-circle-2"></div>
+            <div class="gradient-circle gradient-circle-3"></div>
+        </div>
+    </section>
+    <!-- Success Modal -->
+    <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body text-center p-5">
+                    <div class="success-icon mb-4">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3 class="mb-3">Message Redirecting to WhatsApp</h3>
+                    <p class="mb-4">You'll be redirected to WhatsApp to send your message directly to our team.</p>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+<footer class="site-footer">
+    <div class="footer-particles"></div>
+    <div class="container">
+        <div class="row gy-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="footer-widget">
+                    <div class="footer-logo">
+                        <span class="tech-text">TECHZ</span>
+                        <span class="weaver-text">Amplify</span>
+                    </div>
+                    <p class="footer-description">
+                        Empowering businesses through innovative digital solutions and cutting-edge technology services.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-2 col-md-6">
+                <div class="footer-widget">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-widget">
+                    <h4>Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#service">Web Development</a></li>
+                        <li><a href="#service">App Development</a></li>
+                        <li><a href="#service">Digital Marketing</a></li>
+                        <li><a href="#service">Product Listing</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-widget">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>2, Eadgah Road Model Town Panipat Haryana</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>we.siteweaverz@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span><a href="tel:+918930005190" class="footer-phone-link">+91 8930005190</a></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="copyright">© 2024 SiteWeaverz. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="footer-bottom-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<body>
+    
+    <!-- Scripts - Keep only these in this specific order -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/contact.js"></script>
+    <script src="./js/about.js"></script>
+    <script src="./js/portfolio.js"></script>
+   
+    
+</body>
+   
+</body>
+</html>
