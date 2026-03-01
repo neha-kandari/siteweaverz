@@ -413,6 +413,24 @@ p {
     width: 100%;
 }
 
+/* Navbar Logo Styling */
+.navbar-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.navbar-brand {
+    padding-left: 0;
+    padding-right: 1rem;
+}
+
+/* Ensure navbar maintains consistent height */
+.navbar {
+    padding: 1rem 0;
+}
+
 /* Desktop styles */
 @media (min-width: 992px) {
     .navbar-collapse {
